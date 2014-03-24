@@ -1,0 +1,10 @@
+TexLive (global) -> /usr/share/texlive
+TexLive (local) -> /usr/local/share/texlive
+
+Downloading new packages: @ /usr/share/texmf/tex/latex (then => sudo texhash)
+
+Searching for new packages: apt-cache search "package"
+
+Latex local fonts: 
+  (global) put map line here -> /usr/local/share/texmf/web2c/updmap.cfg (then => sudo updmap-sys)
+  (local) put map line here -> $HOME/texmf/web2c/updmap.cfg (then => updmap)
